@@ -1,0 +1,6 @@
+
+create a tic tac toe app with a node server.
+The app must be responsive.
+the server decide who play fist randomly.
+the server must play the best move possible.
+the must client use react redux

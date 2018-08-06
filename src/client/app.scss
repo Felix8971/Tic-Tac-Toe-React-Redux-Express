@@ -1,0 +1,34 @@
+h1 {
+  color: black;
+}
+
+body {
+  text-align: center;
+  margin: auto;
+}
+
+.content {
+  display:grid;
+  justify-content: center;
+}
+.board{
+  display:grid;
+  justify-content: center;
+  width:75vmin;
+  background-color: rgb(133, 255, 129);
+  grid-template-columns: 25vmin 25vmin 25vmin;
+  grid-template-rows: 25vmin 25vmin 25vmin;
+  border:1px solid black;
+  .square{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    border:1px solid black;
+    font-size: 22vmin;
+  }
+
+  .empty{
+    cursor: pointer;
+  }
+  
+}
